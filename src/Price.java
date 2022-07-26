@@ -14,4 +14,8 @@ public abstract class Price {
         return frequentRenterPoints;
     }
 
+    public int getFrequentRenterPoints(int daysRented) {
+        return 1;
+    }
+
 }
